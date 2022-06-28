@@ -1,6 +1,7 @@
 # Fibonacci-EMA-SMA
 
-//@version=4
+// Source Code
+
 study(title = "Fibonacci EMAMA", overlay = true)
 
 SMA1 = input(8)
