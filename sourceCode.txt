@@ -1,5 +1,5 @@
 // this is pine script //
-
+//@version=4
 // starts here
 study(title = "Fibonacci EMAMA", overlay = true)
 
