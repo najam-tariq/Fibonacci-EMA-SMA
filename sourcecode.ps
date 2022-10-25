@@ -1,6 +1,9 @@
-// this is pine script
+// this is pine script //
+
+// starts here
 study(title = "Fibonacci EMAMA", overlay = true)
 
+// smas here
 SMA1 = input(8)
 sma8 = sma(close, SMA1)
 plot(sma8, linewidth = 1, color = color.red, title = "SMA1")
@@ -21,8 +24,7 @@ SMA5 = input(200)
 sma200 = sma(close, SMA5)
 plot(sma200, linewidth = 4, color = color.blue, title = "SMA5")
 
-// emas now
-
+// emas here
 EMA1 = input(8)
 ema8 = ema(close, SMA1)
 plot(ema8, linewidth = 1, color = color.red, title = "EMA1")
